@@ -1,0 +1,45 @@
+.dbt-yt-gallery .yt-videos {
+  display: flex;
+  margin: -1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.dbt-yt-gallery .yt-videos > * {
+  margin: 1em;
+  flex: 0 1 calc(50% - 2em);
+}
+
+.dbt-yt-gallery .yt-videos > a {
+  text-decoration: none;
+}
+
+.dbt-yt-gallery .yt-video-thumbnail {
+  position: relative;
+  width: 100%;
+}
+
+.dbt-yt-gallery .yt-video-thumbnail img {
+  width: 100%;
+}
+
+.dbt-yt-gallery .yt-video-thumbnail .yt-video-thumbnail-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  max-width: 5em;
+  fill: #FFFFFF;
+  opacity: 0.5;
+  transition: 0.125s ease-in-out all;
+  max-height: 33%;
+}
+
+.dbt-yt-gallery .yt-video-thumbnail:hover .yt-video-thumbnail-button {
+  transform: translate(-50%, -50%) scale(1.05);
+  opacity: 0.75;
+}
+
+.dbt-yt-gallery .yt-video-title {
+  margin-bottom: 0;
+}

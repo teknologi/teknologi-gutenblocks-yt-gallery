@@ -1,0 +1,61 @@
+{
+    "key": "group_609070c050729",
+    "title": "DBT Youtube Gallery Block",
+    "fields": [
+        {
+            "key": "field_609070f4345f8",
+            "label": "Youtube Videos",
+            "name": "yt-videos",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "field_60907175345f9",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add Youtube Video",
+            "sub_fields": [
+                {
+                    "key": "field_60907175345f9",
+                    "label": "Video",
+                    "name": "video",
+                    "type": "oembed",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "width": "",
+                    "height": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "block",
+                "operator": "==",
+                "value": "acf\/dbt-yt-gallery"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "seamless",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "modified": 1620079072
+}
