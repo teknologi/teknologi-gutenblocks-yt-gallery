@@ -3,7 +3,7 @@
 /**
 * Plugin Name: Tekno.dk Youtube Gallery Gutenberg block
 * Description: requires ACF
-* Version: 0.0.3
+* Version: 0.0.4
 * Author: Hans Czajkowski Jørgensen
 * Text Domain: teknogbytgal
 * Domain Path: /languages
