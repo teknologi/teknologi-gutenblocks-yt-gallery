@@ -33,7 +33,7 @@ function block_init() {
             'enqueue_assets'     => function (){
                 wp_register_style('dbt-yt-gallery-lg-css', 'https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/css/lightgallery.min.css', null, '1.10.0', null);
                 wp_enqueue_style('dbt-yt-gallery-lg-css');
-                wp_register_style('dbt-yt-gallery-css', plugin_dir_url( __FILE__ ) . 'css/teknologi-gutenblocks-yt-gallery.css', array('dbt-yt-gallery-lg-css'), '0.0.1', null);
+                wp_register_style('dbt-yt-gallery-css', plugin_dir_url( __FILE__ ) . 'css/teknologi-gutenblocks-yt-gallery.css', array('dbt-yt-gallery-lg-css'), '0.0.3', null);
                 wp_enqueue_style('dbt-yt-gallery-css');
                 wp_register_script('dbt-yt-gallery-lg-js', 'https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/dist/js/lightgallery.min.js', array('jquery'), '1.10.0', true);
                 wp_enqueue_script('dbt-yt-gallery-lg-js');
@@ -41,7 +41,7 @@ function block_init() {
                 wp_enqueue_script('dbt-yt-gallery-lg-module-video-js');
                 wp_register_script('dbt-yt-gallery-lg-module-thumbnail-js', 'https://cdn.jsdelivr.net/npm/lightgallery@1.10.0/modules/lg-thumbnail.min.js', array('dbt-yt-gallery-lg-module-video-js'), '1.10.0', true);
                 wp_enqueue_script('dbt-yt-gallery-lg-module-thumbnail-js');
-                wp_register_script('dbt-yt-gallery-js', plugin_dir_url( __FILE__ ) . 'js/teknologi-gutenblocks-yt-gallery.js', array('dbt-yt-gallery-lg-module-thumbnail-js'), '0.0.1', true);
+                wp_register_script('dbt-yt-gallery-js', plugin_dir_url( __FILE__ ) . 'js/teknologi-gutenblocks-yt-gallery.js', array('dbt-yt-gallery-lg-module-thumbnail-js'), '0.0.3', true);
                 wp_enqueue_script('dbt-yt-gallery-js');
             }
         ));
