@@ -14,7 +14,7 @@ function block_category_init( $categories, $post ) {
 	);
 }
 
-\add_filter( 'block_categories', '\Teknologi_Gutenblocks_Ytgallery\block_category_init', 10, 2);
+\add_filter( 'block_categories_all', '\Teknologi_Gutenblocks_Ytgallery\block_category_init', 10, 2);
 
 function block_init() {
     if( function_exists('acf_register_block_type') ) {
